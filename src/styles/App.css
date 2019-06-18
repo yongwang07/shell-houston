@@ -1,0 +1,21 @@
+.App-body {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 200px);
+  overflow: hidden;
+}
+
+.App-left {
+  flex: 1;
+  text-align: center;
+  background-color: orange;
+  overflow: auto;
+}
+
+.App-right {
+  flex: 1;
+  background-color: yellow;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
